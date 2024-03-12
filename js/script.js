@@ -1,9 +1,22 @@
-let button = document.querySelector(".js-button");
-let body = document.querySelector(".js-body");
-let themeColor = document.querySelector(".js-themecolor");
+{
+    const welcome = () => {
+        console.log("Witam developerów na mojej stronie!")
+    }
 
-button.addEventListener("click", () => {
-    body.classList.toggle("body--dark");
+    const toggleBackground = () => {
+        const body = document.querySelector(".js-body");
+        const themeColor = document.querySelector(".js-themecolor");
 
-    themeColor.innerText = body.classList.contains("body--dark") ? "jasny" : "ciemny";
-});
+        body.classList.toggle("body--dark");
+        themeColor.innerText = body.classList.contains("body--dark") ? "jasny" : "ciemny";
+    };
+
+    const init = () => {
+        const button = document.querySelector(".js-button");
+        button.addEventListener("click", toggleBackground);
+
+        welcome();
+    };
+
+    init();
+}
