@@ -1,0 +1,16 @@
+.header__image {
+    max-height: 100px;
+    display: block;
+    margin: 20px auto;
+  }
+  
+  .section__header {
+    color: hsl(221, 84%, 42%);
+  }
+
+  .header__title {
+    margin: 21px auto;
+    text-align: center;
+    font-size: 30px;
+    padding: 21px 0;
+  }

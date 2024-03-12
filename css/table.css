@@ -1,0 +1,43 @@
+.table {
+    border-collapse: collapse;
+    width: 100%;
+    font-size: 16px;
+  }
+  
+  .table__data {
+    border: 2px solid #020202;
+    padding: 13px;
+    text-align: center;
+    color: #041479;
+    vertical-align: middle;
+  }
+  
+  .table__data--header {
+    background-color: hsl(196deg 100% 65.58%);
+    color: hwb(223deg 1.02% 69.54%);
+    font-weight: normal;
+  }
+  
+  .table__data--header:hover {
+    background: #6ad7e0;
+  }
+  
+  .table__row {
+    background-color: #fffbfb;
+    color: hwb(223 0% 71%);
+  }
+  
+  .table__row:nth-child(even) {
+    background: #f1ebeb;
+  }
+  
+  .table__row:hover {
+    background: #d2d7d7;
+  }
+  
+  .table__caption {
+    caption-side: bottom;
+    text-align: right;
+    margin-top: 8px;
+  }
+  

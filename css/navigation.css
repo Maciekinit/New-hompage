@@ -1,0 +1,38 @@
+.navigation {
+  padding-bottom: 5px;
+  border-bottom: 2px solid #049bf2;
+  margin: 40px;
+}
+
+.navigation__link {
+  color: #1914c2;
+  text-decoration: none;
+}
+
+.navigation__link:focus {
+  outline: 2px solid currentColor;
+}
+
+.navigation__link:hover {
+  color: hsl(120, 79%, 46%);
+  border-bottom: 1px solid;
+  outline: none;
+}
+
+.navigation__list {
+  margin: 7px 0;
+  font-weight: bold;
+  text-align: center;
+}
+
+.navigation__list {
+  list-style-type: none;
+  margin-bottom: 10px;
+  padding: 0;
+}
+
+.navigation__item {
+  list-style-type: none;
+  margin-bottom: 10px;
+  padding: 0;
+}

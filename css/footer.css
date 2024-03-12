@@ -1,0 +1,10 @@
+.footer__paragraph {
+    width: 100%;
+    padding: 15px;
+    background-color: hsl(196deg 100% 65.58%);
+    color: #222;
+    text-align: center;
+    font-weight: bold;
+    margin: 10px auto;
+    font-size: 17px;
+}
