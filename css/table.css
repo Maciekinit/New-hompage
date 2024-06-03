@@ -3,6 +3,10 @@
     width: 100%;
     font-size: 16px;
   }
+
+  .container {
+    overflow-x: auto;
+  }
   
   .table__data {
     border: 2px solid #020202;
